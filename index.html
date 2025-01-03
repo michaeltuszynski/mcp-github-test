@@ -12,9 +12,16 @@
             padding: 20px;
             background-color: #f0f0f0;
         }
-        h1 {
+        h1, h2 {
             color: #333;
             text-align: center;
+        }
+        section {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
         p {
             line-height: 1.6;
@@ -24,6 +31,25 @@
 </head>
 <body>
     <h1>Welcome to MCP GitHub Test</h1>
-    <p>This is a simple test page with some basic styling.</p>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a team dedicated to testing and showcasing GitHub integration capabilities.</p>
+    </section>
+
+    <section id="features">
+        <h2>Features</h2>
+        <p>Our platform offers:</p>
+        <ul>
+            <li>GitHub Integration</li>
+            <li>Automated Workflows</li>
+            <li>Version Control</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Get in touch with us at: contact@example.com</p>
+    </section>
 </body>
 </html>
